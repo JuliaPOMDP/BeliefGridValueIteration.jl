@@ -1,5 +1,8 @@
 # BeliefGridValueIteration
 
+[![Build Status](https://travis-ci.org/JuliaPOMDP/BeliefGridValueIteration.jl.svg?branch=master)](https://travis-ci.org/JuliaPOMDP/BeliefGridValueIteration.jl)
+[![Coverage Status](https://coveralls.io/repos/JuliaPOMDP/BeliefGridValueIteration.jl/badge.svg)](https://coveralls.io/r/JuliaPOMDP/BeliefGridValueIteration.jl)
+
 An offline POMDP solver from "Computationally Feasible Bounds for Partially Observed Markov Decision Processes" (1991), by W. S. Lovejoy.
 It computes an upper bound on the value function by performing value iteration on a discretized belief space.
 
@@ -55,4 +58,4 @@ This should return a list of the following functions to be implemented for your 
 
 ## Acknowledgements
 
-The authors thank Tim Wheeler, and Mykel Kochenderfer for providing a starter implementation of this code.
+The authors thank Tim Wheeler and Mykel Kochenderfer for providing a starter implementation of this code.
