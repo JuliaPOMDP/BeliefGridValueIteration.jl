@@ -1,6 +1,7 @@
 # BeliefGridValueIteration
 
 [![Build Status](https://travis-ci.org/JuliaPOMDP/BeliefGridValueIteration.jl.svg?branch=master)](https://travis-ci.org/JuliaPOMDP/BeliefGridValueIteration.jl)
+[![codecov](https://codecov.io/gh/JuliaPOMDP/BeliefGridValueIteration.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaPOMDP/BeliefGridValueIteration.jl)
 [![Coverage Status](https://coveralls.io/repos/JuliaPOMDP/BeliefGridValueIteration.jl/badge.svg)](https://coveralls.io/r/JuliaPOMDP/BeliefGridValueIteration.jl)
 
 An offline POMDP solver from "Computationally Feasible Bounds for Partially Observed Markov Decision Processes" (1991), by W. S. Lovejoy.
