@@ -35,7 +35,5 @@ end
 
     b0 = [0.5, 0.5]
 
-    value(p1, b0)
-
-    value(p2, b0)
+    @test value(p1, b0) > value(p2, b0)
 end
