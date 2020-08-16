@@ -5,6 +5,7 @@ using SparseArrays
 using Printf
 using Parameters
 using POMDPs
+using POMDPLinter
 using POMDPModelTools
 using ProgressMeter
 

@@ -2,6 +2,7 @@ using Test
 using BeliefGridValueIteration
 using POMDPModels
 using POMDPs
+using POMDPLinter
 using SARSOP
 
 @testset "basic" begin
@@ -22,7 +23,7 @@ using SARSOP
 end
 
 @testset "requirements" begin 
-    @requirements_info BeliefGridValueIterationSolver() TigerPOMDP()
+    POMDPLinter.@show_requirements solve(BeliefGridValueIterationSolver(), TigerPOMDP())
 end
 
 @testset "SARSOP comparison" begin 

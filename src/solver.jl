@@ -139,7 +139,7 @@ end
 
 
 function qvalue!(pomdp, Rba, Poba, L, U, qvals)
-    for a in 1:n_actions(pomdp)
+    for a in 1:length(actions(pomdp))
         qvals[:, a] = view(Rba, :, a) + sum(discount(pomdp) * view(Poba, :, a, :) .* dot.(view(L, :, a, :), Ref(U)), dims=2)
     end
 end
@@ -209,7 +209,7 @@ function POMDPs.solve(solver::BeliefGridValueIterationSolver, pomdp::POMDP)
     return BeliefGridValueIterationPolicy(solver.m, Vmap, U, pol)
 end 
 
-@POMDP_require solve(solver::BeliefGridValueIterationSolver, pomdp::POMDP) begin
+POMDPLinter.@POMDP_require solve(solver::BeliefGridValueIterationSolver, pomdp::POMDP) begin
     @subreq SparseTabularPOMDP(pomdp)
 end
 
