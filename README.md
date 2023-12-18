@@ -1,27 +1,19 @@
 # BeliefGridValueIteration
 
-[![Build Status](https://travis-ci.org/JuliaPOMDP/BeliefGridValueIteration.jl.svg?branch=master)](https://travis-ci.org/JuliaPOMDP/BeliefGridValueIteration.jl)
-[![codecov](https://codecov.io/gh/JuliaPOMDP/BeliefGridValueIteration.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaPOMDP/BeliefGridValueIteration.jl)
-[![Coverage Status](https://coveralls.io/repos/JuliaPOMDP/BeliefGridValueIteration.jl/badge.svg)](https://coveralls.io/r/JuliaPOMDP/BeliefGridValueIteration.jl)
+[![CI](https://github.com/JuliaPOMDP/BeliefGridValueIteration.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPOMDP/BeliefGridValueIteration.jl/actions/workflows/CI.yml)
+[![codecov.io](http://codecov.io/github/JuliaPOMDP/BeliefGridValueIteration.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaPOMDP/BeliefGridValueIteration.jl?branch=master)
 
 An offline POMDP solver from "Computationally Feasible Bounds for Partially Observed Markov Decision Processes" (1991), by W. S. Lovejoy.
 It computes an upper bound on the value function by performing value iteration on a discretized belief space.
 
 ## Installation
 
-Start Julia and make sure you have the JuliaPOMDP registry:
+Install using the standard package manager:
 
 ```julia
-import POMDPs
-POMDPs.add_registry()
+using Pkg
+Pkg.add("BeliefGridValueIteration")
 ```
-
-Then install using the standard package manager:
-
-```julia
-using Pkg; Pkg.add("BeliefGridValueIteration")
-```
-
 
 ## Usage
 
