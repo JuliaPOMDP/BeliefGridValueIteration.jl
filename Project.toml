@@ -1,6 +1,6 @@
 name = "BeliefGridValueIteration"
 uuid = "d6851e30-d4b8-11e9-06de-0b345e2a813d"
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
