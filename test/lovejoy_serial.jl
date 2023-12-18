@@ -1,7 +1,7 @@
 # A non vectorized version of the algorithm
 using LinearAlgebra
 using POMDPs
-using POMDPModelTools
+using POMDPTools
 
 function freudenthal_vertices!(V, v, i)
     n = length(v)

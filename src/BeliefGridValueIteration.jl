@@ -6,7 +6,7 @@ using Printf
 using Parameters
 using POMDPs
 using POMDPLinter
-using POMDPModelTools
+using POMDPTools
 using ProgressMeter
 
 export  
