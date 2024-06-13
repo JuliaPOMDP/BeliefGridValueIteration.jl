@@ -15,7 +15,7 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 [compat]
 POMDPLinter = "0.1"
 POMDPTools = "0.1, 1"
-POMDPs = "0.9"
+POMDPs = "0.9, 1"
 Parameters = "0.12"
 ProgressMeter = "1"
 julia = "1"
